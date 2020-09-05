@@ -18,7 +18,7 @@ The package uses torch 1.6.0, torchvision 0.7.0, and fastai 2.0.0 (and its depen
 
 Training a CycleGAN model is easy with UPIT! Given the paths of the images from the two domains `trainA_path` and `trainB_path`, you can do the following:
 
-```python
+```
 #cuda
 dls = get_dls(trainA_path, trainB_path)
 cycle_gan = CycleGAN(3,3,64)
